@@ -1,6 +1,6 @@
 {
   "name": "@http/digest",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "HTTP Digest Authentication",
 
   "keywords": [
@@ -20,27 +20,18 @@
     "url": "https://github.com/node-http/digest.git"
   },
 
-  "bundledDependencies": {
-    "http-duplex"     : "0.0.0"
+  "dependencies": {
+    "node-uuid": "^1.4.7"
   },
-
-  "devDependencies": {
-    "mocha"           : "2.2.4",
-    "should"          : "5.2.0",
-    "istanbul"        : "0.3.13",
-    "coveralls"       : "2.11.2",
-    "codecov.io"      : "0.1.5",
-    "eslint"          : "0.19.0"
-  },
+  "devDependencies": {},
 
   "main": "index.js",
 
-  "files": [],
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
 
-  "scripts": {
-    "test"      : "npm run lint && npm run test-ci",
-    "test-ci"   : "mocha --recursive test/",
-    "test-cov"  : "istanbul cover _mocha test/",
-    "lint"      : "eslint && echo Lint passed"
-  }
+  "scripts": {}
 }
