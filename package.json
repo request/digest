@@ -1,9 +1,10 @@
 {
-  "name": "@http/digest",
+  "name": "@request/digest",
   "version": "0.1.0",
   "description": "HTTP Digest Authentication",
 
   "keywords": [
+    "request",
     "http",
     "https",
     "digest",
@@ -11,13 +12,13 @@
   ],
 
   "license": "Apache-2.0",
-  "homepage": "https://github.com/node-http/digest",
+  "homepage": "https://github.com/request/digest",
 
   "author": "Simeon Velichkov <simeonvelichkov@gmail.com> (http://simov.github.io)",
 
   "repository": {
     "type": "git",
-    "url": "https://github.com/node-http/digest.git"
+    "url": "https://github.com/request/digest.git"
   },
 
   "dependencies": {

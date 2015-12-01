@@ -1,7 +1,7 @@
 
-# @http/digest
+# @request/digest
 
-See [@http/core][http-core] for further details.
+> See [@request/core][request-core] for more details.
 
 
 ## Notice
@@ -11,4 +11,4 @@ This module may contain code snippets initially implemented in [request][request
 
   [request]: https://github.com/request/request
   [request-contributors]: https://github.com/request/request/graphs/contributors
-  [http-core]: https://github.com/node-http/core
+  [request-core]: https://github.com/request/core
